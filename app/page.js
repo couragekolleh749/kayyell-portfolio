@@ -11,7 +11,7 @@ export default function Home() {
         <iframe
           className="absolute inset-0 w-full h-full object-cover -z-10"
           src="https://www.youtube.com/embed/10hpgt2HDAQ?autoplay=1&mute=1&loop=1&playlist=10hpgt2HDAQ"
-          title="KayyEll Hero Video"
+          title="Kayy Ell Hero Video"
           frameBorder="0"
           allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
           allowFullScreen
@@ -26,27 +26,29 @@ export default function Home() {
           <div className="mb-6">
             <Image
               src="/hero.jpg"
-              alt="KayyEll"
+              alt="Kayy Ell"
               width={200}
               height={200}
               className="rounded-full border-4 border-white shadow-lg object-cover"
               priority
             />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">KayyEll</h1>
-          <p className="text-lg md:text-2xl">Artist • Producer • Hair Stylist</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Kayy Ell</h1>
+          <p className="text-lg md:text-2xl">Artist • Producer • Model</p>
         </div>
       </section>
 
       {/* ABOUT SECTION */}
       <section className="py-16 px-6 bg-white text-black text-center">
-        <h2 className="text-3xl font-bold mb-4">About KayyEll</h2>
+        <h2 className="text-3xl font-bold mb-4">About Kayy Ell</h2>
         <p className="max-w-2xl mx-auto leading-relaxed">
-          KayyEll is a rising Liberian artist, producer, and creative visionary.
-          Known for blending Afrobeat rhythms with unique sounds, she brings a
-          fresh voice to the global stage. Beyond music, she is also a talented
-          hair stylist and creative entrepreneur, using her artistry to inspire
-          and empower others.
+          Kayy Ell is a Liberian artist blending R&amp;B with Afro-soul influences. 
+          She has performed with MajorStage in NYC and collaborated with a producer 
+          who has worked with major artists. With a growing catalog of solo singles, 
+          Kayy Ell is currently rebranding and refining her sound. While open to future 
+          collaborations, she’s focused on her personal journey of growth through music. 
+          Beyond her artistry, she also enjoys modeling, bringing another creative dimension 
+          to her work and presence.
         </p>
       </section>
 
@@ -54,15 +56,36 @@ export default function Home() {
       <section className="py-16 px-6 bg-gray-100 text-black text-center">
         <h2 className="text-3xl font-bold mb-8">Popular Tracks</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* New Songs */}
           <iframe
             style={{ borderRadius: "12px" }}
-            src="https://open.spotify.com/embed/track/0GOVfe39HQ9bXx27VG6gDi?utm_source=generator"
+            src="https://open.spotify.com/embed/track/1eyNbIwJ8StN0yhv5PNTCf?utm_source=generator"
             width="100%"
             height="352"
             frameBorder="0"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
           ></iframe>
+          <iframe
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/track/7MJaNvcEImcXUF190B4shk?utm_source=generator"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <iframe
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/track/6V4W27CH1FARmxJ9gPD4bD?utm_source=generator"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+
+          {/* Kept Original Legit Songs */}
           <iframe
             style={{ borderRadius: "12px" }}
             src="https://open.spotify.com/embed/track/52Ms6sGwYsrDxpUVmFjzqR?utm_source=generator"
@@ -75,15 +98,6 @@ export default function Home() {
           <iframe
             style={{ borderRadius: "12px" }}
             src="https://open.spotify.com/embed/track/076hpHyF1KM5Z7dus4YcRB?utm_source=generator"
-            width="100%"
-            height="352"
-            frameBorder="0"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
-          <iframe
-            style={{ borderRadius: "12px" }}
-            src="https://open.spotify.com/embed/track/0AfOOgo8H6WpHX38YEjHKm?utm_source=generator"
             width="100%"
             height="352"
             frameBorder="0"
@@ -157,7 +171,7 @@ export default function Home() {
             kayyellmusic@gmail.com
           </a>
         </p>
-        <p className="mb-8">Follow KayyEll on Instagram for updates.</p>
+        <p className="mb-8">Follow Kayy Ell on Instagram for updates.</p>
         <a
           href="https://www.instagram.com/kortoooo?igsh=eW81eDIwOHN5NGZs"
           target="_blank"
@@ -170,6 +184,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
