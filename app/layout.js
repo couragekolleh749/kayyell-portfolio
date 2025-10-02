@@ -2,12 +2,12 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("http://localhost:3000"),
-  title: "KayyEll Portfolio",
-  description: "KayyEll — Artist • Producer • Hair Stylist",
+  metadataBase: new URL("https://kayyell-portfolio.vercel.app"),
+  title: "Kayy Ell Portfolio",
+  description: "Kayy Ell — Artist • Producer • Hair Stylist",
   openGraph: {
-    title: "KayyEll Portfolio",
-    description: "KayyEll — Artist • Producer • Hair Stylist",
+    title: "Kayy Ell Portfolio",
+    description: "Kayy Ell — Artist • Producer • Hair Stylist",
     images: ["/hero.jpg"],
   },
   twitter: {
@@ -19,10 +19,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="lnuGfw3s93mXRYup1eLm7FEJzReZhtT-awsZLx-pNVM"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
 }
+
 
 
 
